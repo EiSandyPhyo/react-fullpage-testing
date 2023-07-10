@@ -3,17 +3,21 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import First from './Components/First';
 import Second from './Components/Second';
 import Third from './Components/Third';
-import './index.css'
+import "./styles.css";
+
 
 // const fullpage = document.getElementById('fullpage');
 // fullpage.style.transitionTimingFunction = 'cubic-bezier(.55,.085,0,.99)'
 
 const SectionContainer = () => {
     const anchors = ["firstPage", "secondPage", "thirdPage"];
+    
 
 const FullpageWrapper = () => (
+  
   <ReactFullpage
-  licenseKey='67582BFF-B4A142AC-ABCE62BE-45C58F1F'
+   debug
+  licenseKey={"YOUR_KEY_HERE"} 
   scrollingSpeed = {1000}
     anchors={anchors}
     navigation
@@ -25,15 +29,15 @@ const FullpageWrapper = () => (
     render={({ state, fullpageApi }) => {
     //   console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
 
-      return (
-        <div className='pp-easing pp-section'>
-          <div className="section h-[100vh]">
+     return (
+          <div className=''>
+          <div className="section">
             <First/>
           </div>
-          <div className="section h-[100vh]">
+          <div className="section">
             <Second/>
           </div>
-          <div className="section h-[100vh]">
+          <div className="section">
             <Third/>
           </div>
         </div>
