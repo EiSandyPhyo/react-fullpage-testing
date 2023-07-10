@@ -32,16 +32,16 @@ const FullpageWrapper = () => (
      return (
           <div className=''>
           <div className="section">
-            {/* <First/> */}
-            <h3>Section One</h3>
+            <First/>
+            {/* <h3>Section One</h3> */}
           </div>
           <div className="section">
-            {/* <Second/> */}
-            <h3>Section 2</h3>
+            <Second/>
+            {/* <h3>Section 2</h3> */}
           </div>
           <div className="section">
-            {/* <Third/> */}
-            <h3>Section 3</h3>
+            <Third/>
+            {/* <h3>Section 3</h3> */}
           </div>
         </div>
       );
