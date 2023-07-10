@@ -28,13 +28,13 @@ const FullpageWrapper = () => (
 
       return (
         <div className='pp-easing pp-section'>
-          <div className="section">
+          <div className="section h-[100vh]">
             <First/>
           </div>
-          <div className="section">
+          <div className="section h-[100vh]">
             <Second/>
           </div>
-          <div className="section">
+          <div className="section h-[100vh]">
             <Third/>
           </div>
         </div>
