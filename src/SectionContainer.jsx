@@ -17,9 +17,7 @@ const FullpageWrapper = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    navigat
     sectionsColor={["#3c3b5a", "#32324c", "#3c3b5a"]}
-    pp-easing='.pp-easing'
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
