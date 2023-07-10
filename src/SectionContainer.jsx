@@ -13,6 +13,7 @@ const SectionContainer = () => {
 
 const FullpageWrapper = () => (
   <ReactFullpage
+  licenseKey='67582BFF-B4A142AC-ABCE62BE-45C58F1F'
   scrollingSpeed = {1000}
     anchors={anchors}
     navigation
