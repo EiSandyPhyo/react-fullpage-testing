@@ -3,6 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import First from './Components/First';
 import Second from './Components/Second';
 import Third from './Components/Third';
+import './index.css'
 
 // const fullpage = document.getElementById('fullpage');
 // fullpage.style.transitionTimingFunction = 'cubic-bezier(.55,.085,0,.99)'
