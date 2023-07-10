@@ -32,7 +32,7 @@ h3 {
 }
 .fp-section {
   text-align: center;
-  height: 100vh;
+  height: 100vh !important;
 }
 
 #fp-nav ul li a span{

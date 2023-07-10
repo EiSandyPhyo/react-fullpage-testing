@@ -3,7 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import First from './Components/First';
 import Second from './Components/Second';
 import Third from './Components/Third';
-import "./styles.css";
+// import "./styles.css";
 
 
 // const fullpage = document.getElementById('fullpage');
